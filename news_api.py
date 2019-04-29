@@ -37,6 +37,8 @@ url = 'https://newsapi.org/v2/top-headlines?country=id&category='+berita+'&apiKe
 
 articles = requests.get(url)
 
+print('Berikut adalah top 5 berita Indonesia bidang {}:'.format(kategori[pilih]))
+
 i = 0
 
 while i < 5:
